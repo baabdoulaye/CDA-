@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #hh:hover {
+        color: rgb(173, 207, 25);
+      }
+    </style>
+  </head>
+  <body>
+    <nav style="color: red">
+      <div id="hh" style="color: red">
+        <ul>
+          <li><a href="#">Accueil</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Produits</a></li>
+        </ul>
+      </div>
+    </nav>
+    <h1>Formulaire</h1>
+    <form
+      style="
+        border: blue 3px;
+        padding: 5px;
+        color: yellow;
+        background-color: black;
+      "
+      action=""
+      method="get"
+    >
+      <fieldset>
+        <input type="" placeholder="Prénom" name="prenom" id="" /><br />
+        <input type="text" placeholder="Nom" name="nom" id="" /><br />
+        <input type="email" placeholder="email" name="email" id="" /><br />
+        <input type="number" placeholder="age" name="age" id="" /><br />
+        <label for="ville">Ville:</label>
+        <select id="ville" name="field4">
+          <optgroup label="Choisir ville">
+            <option value="Paris">Paris</option>
+            <option value="Marseille">Marseille</option>
+            <option value="Bordeaux">Bordeaux</option>
+          </optgroup>
+        </select>
+        <br />
+        <textarea
+          name="message"
+          placeholder="message"
+          id=""
+          cols="30"
+          rows="10"
+        ></textarea>
+        <br />
+      </fieldset>
+    </form>
+    <button
+      style="
+        background-color: green;
+        color: white;
+        border-radius: 10px;
+        padding: 10px;
+        margin-left: 1%;
+        margin-top: 1%;
+        border: blue 3px;
+      "
+    >
+      Valider
+    </button>
+  </body>
+</html>

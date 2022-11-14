@@ -1,0 +1,78 @@
+#div_header {
+  background-image: url("fond_header.png");
+  height: 250px;
+  position: absolute;
+  right: 0;
+  top: 0%;
+  width: 100%;
+}
+h1 {
+  padding-top: 3%;
+  padding-left: 3%;
+  color: rgb(255, 255, 255);
+}
+a:hover {
+  color: antiquewhite;
+}
+a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  padding-right: 150px;
+  padding-left: 40px;
+  font-size: 16px;
+}
+#bande_noire {
+  background-color: black;
+  color: white;
+  height: 40px;
+}
+button {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-left: 580px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(104, 197, 197);
+  border-radius: 20%;
+  width: 130px;
+}
+#intro {
+  background-color: rgb(236, 224, 194);
+  border-radius: 10%;
+}
+#intro:hover {
+  box-shadow: 1px 0.4px black;
+}
+#parent {
+  background-color: rgb(103, 110, 110);
+  width: 500px;
+  height: 15px;
+}
+#enfant {
+  background-color: aqua;
+  height: 15px;
+  width: 25%;
+}
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #634848;
+}
+
+.menu li {
+  float: left;
+}
+
+.menu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.menu li a:hover {
+  background-color: red;
+}
