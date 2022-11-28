@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #hey {
+        width: 200px;
+        margin-left: 300px;
+      }
+
+      @media (max-width: 700px) {
+        #hey {
+          border-radius: 100%;
+          transition: 5s;
+        }
+      }
+      @media (min-width: 700px) {
+        #hey {
+          border-radius: 0%;
+          transition: 5s;
+        }
+      }
+
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #634848;
+}
+
+.menu li {
+  float: left;
+}
+
+.menu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.menu li a:hover {
+  background-color: red;
+}
+#hh{
+  visibility: hidden;
+}
+@media (max-width:500px) {
+  .menu {
+visibility: hidden;
+
+  }
+#hh{
+  visibility: visible;
+  width: 50px;
+}
+}
+
+    </style>
+  </head>
+  <body>
+    <img id="hey" src="voie-lactee-espace-astronomie-ciel.jpg" alt="" />
+    <div id="div_header">
+      <nav class="menu">
+
+        <ul>
+
+            <li><a href="#">Accueil</a></li>
+            <li><a href="#">Produits</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+<img id="hh" src="Hamburger_icon.svg.png" alt="">
+    </nav>
+  </body>
+</html>

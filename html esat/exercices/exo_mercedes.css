@@ -1,0 +1,74 @@
+body {
+  background-image: url("b.png");
+  background-color: rgb(1, 62, 148);
+}
+h2 {
+  color: white;
+  text-align: center;
+}
+#div_h2 {
+  background-color: black;
+  height: 30px;
+}
+#texte {
+  text-align: center;
+}
+#div_milked_way {
+  background-image: url("voie-lactee-espace-astronomie-ciel.jpg");
+  background-size: cover;
+  margin-left: 200px;
+  height: 500px;
+  position: absolute;
+  margin-right: 200px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 20px;
+}
+#div1 {
+    position: fixed;
+    height: 100px;
+    background-color: black;
+    left: 0;
+    top: 0;
+    width: 100px;
+}
+#div2 {
+    position: fixed;
+    height: 100px;
+    background-color: black;
+    right: 0;
+    top: 0;
+    width: 100px;
+}
+
+#div3 {
+  position: fixed;
+  height: 100px;
+  background-color: black;
+  left: 0;
+  bottom: 0;
+  width: 100px;
+}
+#div4 {
+  position: fixed;
+  height: 100px;
+  background-color: black;
+  right: 0;
+  bottom: 0;
+  width: 100px;
+}
+#parent {
+  height: 600px;
+  background-color: rgb(67, 133, 205);
+  width: 800px;
+  margin-left: 300px;
+}
+
+#enfant {
+  height: 100px;
+  background-color: rgb(120, 126, 133);
+  width: 100px;
+  margin-left: 300px;
+  top: 50px;
+  position: sticky;
+}
+}
